@@ -1,0 +1,50 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/white-wall-texture-background_24972-2224.jpg?w=740&t=st=1702744123~exp=1702744723~hmac=9d52f17a58211bf640c8f0072e6e08a033756ed23d115c3d47c5530927f574eb);
+}
+.bodyHomepage{
+    background-image: url(https://img.freepik.com/free-photo/white-wall-texture-background_24972-2224.jpg?w=740&t=st=1702744123~exp=1702744723~hmac=9d52f17a58211bf640c8f0072e6e08a033756ed23d115c3d47c5530927f574eb);
+}
+
+.textcoin{
+    font-size: 25px;
+    font-weight: bold;
+}
+.tag{
+    font-size: 20px;
+    font-weight: 500;
+}
+.tag1{
+    font-size: 25px;
+    font-weight: 550;
+}
+.lay{
+    margin: 20px 0 20px 0;
+}
+.btnArea{
+    margin: 40px 0 0 0;
+    display: grid;
+}
+.okBtn{
+    all:unset;
+    display: grid;
+    place-items: center;
+    padding: 20px 30px 20px 30px;
+    width:80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+}
+.okBtn:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,85 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/white-wall-texture-background_24972-2224.jpg?w=740&t=st=1702744123~exp=1702744723~hmac=9d52f17a58211bf640c8f0072e6e08a033756ed23d115c3d47c5530927f574eb);
+}
+.bodyHomepage{
+    background-image: url(https://img.freepik.com/free-photo/white-wall-texture-background_24972-2224.jpg?w=740&t=st=1702744123~exp=1702744723~hmac=9d52f17a58211bf640c8f0072e6e08a033756ed23d115c3d47c5530927f574eb);
+}
+.Topic{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px gray;
+    margin: 10px 0 10px 0;
+    padding: 10px 0  10px 0;
+}
+.TopicHome{
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    padding: 10px 0 10px 0;
+    width: 500px;
+    box-shadow: 0 2px 10px gray;
+    display: grid;
+    place-items: center;
+}
+.Homepage{
+    margin-top: 150px;
+    display: grid;
+    place-items: center;
+}
+.HomeBox{
+    background-color: white;
+    height: 200px;
+    width: 500px;
+    border-radius: 1.5rem;
+    box-shadow: 0px 5px 20px black;
+    display: grid;
+    place-items: center;
+}
+.HomeBtn{
+    all:unset;
+    display: grid;
+    border-radius: 0.5rem;
+    place-items: center;
+    box-shadow: 0 1px 5px gray;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+.HomeBtn:hover{
+    background-color: gray;
+
+}
+.tokenInputArea{
+    width: 100%;
+    margin: 30px 0 10px 0;
+    display: grid;
+    place-items: center;
+}
+.tokenInput{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tokenBtn{
+    all:unset;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    margin: 20px 0 0 0;
+    background-color: green;
+}

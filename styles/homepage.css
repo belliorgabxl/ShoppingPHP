@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/white-wall-texture-background_24972-2224.jpg?w=740&t=st=1702744123~exp=1702744723~hmac=9d52f17a58211bf640c8f0072e6e08a033756ed23d115c3d47c5530927f574eb);
+    
+}
+.container{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.content1{
+    margin: 30px 0  0 0;
+    font-size: 40px;
+    height: 100px;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    box-shadow: 0 2px 10px gray;
+    font-weight: bold;
+}
+.content2{
+    margin: 30px 0  30px 0;
+    font-size: 40px;
+    height: 100px;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    color: white;
+    box-shadow: 0 2px 10px gray;
+    font-weight: bold;
+}
